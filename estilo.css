@@ -1,0 +1,119 @@
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-template-rows: repeat(5, 100px);
+	grid-gap: 15px 15px;
+	grid-template-areas: 
+		"A A B C"
+		"D E F ."
+		"G G H I"
+		"G G J ."
+		"K K K L"
+		"M . . .";
+	color: white;
+	border-radius: 20%;
+}
+
+.item-a {
+	grid-area: A;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-b {
+	grid-area: B;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-c {
+	grid-area: C;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-d {
+	grid-area: D;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-e {
+	grid-area: E;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-f {
+	grid-area: F;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-g {
+	grid-area: G;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-h {
+	grid-area: H;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-i {
+	grid-area: I;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-j {
+	grid-area: J;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-k {
+	grid-area: K;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-l {
+	grid-area: L;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+.item-m {
+	grid-area: M;
+	background-color: #3F3F3F;
+	padding: 28px;
+	border-radius: 5px;
+	font-size: 40px;
+}
